@@ -14,10 +14,8 @@ int main()
         if(k==ar[i])
         {
             cout<<"position: "<<i<<endl;
-        }
-        else
-        {
-            cout<<"Not Found"<<endl;
+            exit(0);
         }
     }
+    cout<<"NOT FOUND!"<<endl;
 }
